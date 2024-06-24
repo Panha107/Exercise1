@@ -8,17 +8,15 @@ public class Main {
     private static String savedPassword = null;
 
     public static void main(String[] args) {
-        // Create the main frame
+
         JFrame frame = new JFrame("Locker Application");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 200);
-
-        // Create a panel to hold the components
+        
         JPanel panel = new JPanel();
         frame.add(panel);
         placeComponents(panel);
 
-        // Set the frame visibility
         frame.setVisible(true);
     }
 
